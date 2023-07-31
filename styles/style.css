@@ -2,6 +2,24 @@
     background-color: #E76F51;
 }
 
+.btn-danger:hover {
+    background-color: #fff;
+    color: #E76F51;
+}
+
+
+.btn-outline-danger {
+    color: #E76F51;
+    border-color: #E76F51;
+    background-color: #fff;
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+    border-color: #E76F51;
+    background-color: #E76F51;
+}
+
 .carousel-item {
     height: 50vh;
     object-fit: cover;
