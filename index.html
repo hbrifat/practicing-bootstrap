@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
 
     <title> Bikers Zone </title>
 </head>
+
 <body>
     <!-- header section -->
     <header class="container">
@@ -16,38 +18,92 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand fw-bolder fs-1" href="#">Bike Dekho</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse fs-5" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
-                  <li class="nav-item me-3">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item me-3">
-                    <a class="nav-link" aria-current="page" href="#">Shop</a>
-                  </li>
-                  <li class="nav-item me-3">
-                    <a class="nav-link" aria-current="page" href="#">News</a>
-                  </li>
-                  <li class="nav-item me-3">
-                    <a class="nav-link" aria-current="page" href="#">Contact</a>
-                  </li>
-                </ul>
+                <a class="navbar-brand fw-bolder fs-1" href="#">Bike Dekho</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse fs-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" aria-current="page" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" aria-current="page" href="#">News</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
 
-                <button class="btn btn-danger py-2 px-4 fw-bolder fs-5" type="submit">Login</button>
+                    <button class="btn btn-danger py-2 px-4 fw-bolder fs-5" type="submit">Login</button>
 
-              </div>
+                </div>
             </div>
         </nav>
 
-        
+        <!-- header content carousel -->
+
+        <div id="carouselExample" class="carousel slide rounded">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex p-5 justify-content-center align-items-center">
+                        <div class="w-50 ps-5 ms-5">
+                            <h1 class="fs-1 fw-bold">Ride-on R15 V4 with Smile</h1>
+                            <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="btn btn-danger py-2 px-4 fw-bolder fs-5">Purchase</button>
+                        </div>
+                        <div class="w-50">
+                            <img src="images/slider/bike2.png" class="d-block img-fluid" alt="bike-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex p-5 justify-content-center align-items-center">
+                        <div class="w-50 ps-5 ms-5">
+                            <h1 class="fs-1 fw-bold">Ride-on R15 V4 with Smile</h1>
+                            <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="btn btn-danger py-2 px-4 fw-bolder fs-5">Purchase</button>
+                        </div>
+                        <div class="w-50">
+                            <img src="images/slider/bike3.png" class="d-block img-fluid" alt="bike-3">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex p-5 justify-content-center align-items-center">
+                        <div class="w-50 ps-5 ms-5">
+                            <h1 class="fs-1 fw-bold">Ride-on R15 V4 with Smile</h1>
+                            <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="btn btn-danger py-2 px-4 fw-bolder fs-5">Purchase</button>
+                        </div>
+                        <div class="w-50">
+                            <img src="images/slider/bike4.png" class="d-block img-fluid" alt="bike-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-danger bg-opacity-25" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-danger bg-opacity-25" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
+
+    
 
 
 
     <!-- boostrap js -->
     <script src="./js/bootstrap.min.js"></script>
 </body>
+
 </html>
