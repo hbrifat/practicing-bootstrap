@@ -38,3 +38,9 @@
     /* width: 20px; */
     height: 20px;
 }
+
+@media screen and (max-width: 576px) {
+    .carousel-item {
+        height: 100vh;
+    } 
+}
