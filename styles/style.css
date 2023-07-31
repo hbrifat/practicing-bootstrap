@@ -2,6 +2,10 @@
     background-color: #E76F51;
 }
 
+.text-danger{
+    color: #E76F51 !important;
+}
+
 .btn-danger:hover {
     background-color: #fff;
     color: #E76F51;
@@ -28,4 +32,9 @@
 
 #carouselExample {
     background: rgba(231, 111, 81, 0.10);
+}
+
+.rating-star {
+    /* width: 20px; */
+    height: 20px;
 }
